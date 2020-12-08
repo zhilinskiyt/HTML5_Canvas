@@ -26,7 +26,6 @@ function  draw(e) {
     lastX = e.offsetX;
     lastY = e.offsetY;
 
-    console.log(e);
     hue++;
     if(hue>360) {
         hue = 0;
